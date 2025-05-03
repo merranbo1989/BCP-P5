@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: merranbo/bcpp5:6
+        image: merranbo/bcpp5:replaceImageTag
         ports:
         - containerPort: 8080
