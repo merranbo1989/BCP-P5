@@ -18,4 +18,4 @@ spec:
       - name: spring-boot-app
         image: merranbo/bcp-p5:3
         ports:
-        - containerPort: 8000
+        - containerPort: 8080
