@@ -42,7 +42,7 @@ pipeline {
     }
     stage('Update Deployment File') {
         environment {
-            GIT_REPO_NAME = "BCP-P5-ArgoCD"
+            GIT_REPO_NAME = "BCP-P5"
             GIT_USER_NAME = "merranbo1989"
         }
         steps {
